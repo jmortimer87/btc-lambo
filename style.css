@@ -1,0 +1,58 @@
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #dee2e6;
+  color: #343a40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.site-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #f39c12, #e74c3c, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+}
+.container {
+  text-align: left;
+  padding: 30px;
+  background: #adb5bd;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+/* Apply gradient to specific text spans */
+.gradient-text {
+  background: linear-gradient(90deg, #f39c12, #e74c3c, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
